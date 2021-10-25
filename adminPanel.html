@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="he-IL" encoding="utf-8" style="height: 100%;">
+
+<body>
+<header>
+<h1>&nbsp;:פאנל מנהל&nbsp;</h1>
+</header>
+<?php 
+$myfile1 = fopen("data/dates.txt", "r");
+$text1 = fread($myfile1,filesize("data/dates.txt"));
+fclose($myfile1);
+
+$myfile2 = fopen("data/users.txt", "r");
+$text2 = fread($myfile2,filesize("data/users.txt"));
+fclose($myfile2);
+
+echo "<center><div class='FVs'><div class='fileV w3-half'>". nl2br($text1) ."</div><div class='w3-white w3-third' width='30px'>&nbsp;&nbsp;&nbsp;</div><div class='fileV w3-half'>". nl2br($text2) ."</div></div></center>";
+?>
+
+</body>
+
+<head>
+<meta charset="utf-8" >
+
+<title> Buy List - Admin </title>
+
+<link rel = "shortcut icon" href = "/buylistIcon.png" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="style2.css" />
+<link rel="stylesheet" type="text/css" href="data/w3style.css" />
+<script type="text/javascript" language = "JavaScript" src="script.js"></script>
+
+<meta name="keywords" content="Dvir Library, דביר ברלוביץ" />
+<meta name="copyright" content="copyright © 2017 Dvir Berlowitz . all rights reserved." />
+<meta name="author" content="Dvir Berlowitz, דביר ברלוביץ" />
+<meta name="language" content="Hebrew" />
+<meta name="description" content="https://buylist.000webhostapp.com buylist director"/>
+<meta name="viewport" content="" />
+</head>
+</html>

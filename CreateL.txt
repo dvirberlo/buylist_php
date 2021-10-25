@@ -1,0 +1,176 @@
+<html>
+<body class="w3-animate-zoom">
+<style>
+span{
+font-weight:bold;
+font-size:30px;
+}
+body{
+}
+</style>
+<?php
+/* -! */
+$_1num1 = filter_input(INPUT_POST, '1num1');
+$_1num2 = filter_input(INPUT_POST, '1num2');
+$_1num3 = filter_input(INPUT_POST, '1num3');
+$_1num4 = filter_input(INPUT_POST, '1num4');
+$_1num5 = filter_input(INPUT_POST, '1num5');
+$_1num6 = filter_input(INPUT_POST, '1num6');
+$_1num7 = filter_input(INPUT_POST, '1num7');
+$_1num8 = filter_input(INPUT_POST, '1num8');
+$_1num9 = filter_input(INPUT_POST, '1num9');
+$_1num10 = filter_input(INPUT_POST, '1num10');
+$_1num11 = filter_input(INPUT_POST, '1num11');
+$_1num12 = filter_input(INPUT_POST, '1num12');
+$_1num13 = filter_input(INPUT_POST, '1num13');
+$_1num14 = filter_input(INPUT_POST, '1num14');
+$_1num15 = filter_input(INPUT_POST, '1num15');
+$_1num16 = filter_input(INPUT_POST, '1num16');
+
+$_2num1 = filter_input(INPUT_POST, '2num1');
+$_2num2 = filter_input(INPUT_POST, '2num2');
+$_2num3 = filter_input(INPUT_POST, '2num3');
+$_2num4 = filter_input(INPUT_POST, '2num4');
+$_2num5 = filter_input(INPUT_POST, '2num5');
+$_2num6 = filter_input(INPUT_POST, '2num6');
+$_2num7 = filter_input(INPUT_POST, '2num7');
+$_2num8 = filter_input(INPUT_POST, '2num8');
+$_2num9 = filter_input(INPUT_POST, '2num9');
+$_2num10 = filter_input(INPUT_POST, '2num10');
+$_2num11 = filter_input(INPUT_POST, '2num11');
+$_2num12 = filter_input(INPUT_POST, '2num12');
+$_2num13 = filter_input(INPUT_POST, '2num13');
+$_2num14 = filter_input(INPUT_POST, '2num14');
+$_2num15 = filter_input(INPUT_POST, '2num15');
+$_2num16 = filter_input(INPUT_POST, '2num16');
+$_2num17 = filter_input(INPUT_POST, '2num17');
+$_2num18 = filter_input(INPUT_POST, '2num18');
+
+$_3num1 = filter_input(INPUT_POST, '3num1');
+$_3num2 = filter_input(INPUT_POST, '3num2');
+$_3num3 = filter_input(INPUT_POST, '3num3');
+$_3num4 = filter_input(INPUT_POST, '3num4');
+$_3num5 = filter_input(INPUT_POST, '3num5');
+$_3num6 = filter_input(INPUT_POST, '3num6');
+$_3num7 = filter_input(INPUT_POST, '3num7');
+$_3num8 = filter_input(INPUT_POST, '3num8');
+$_3num9 = filter_input(INPUT_POST, '3num9');
+$_3num10 = filter_input(INPUT_POST, '3num10');
+
+$_4num1 = filter_input(INPUT_POST, '4num1');
+$_4num2 = filter_input(INPUT_POST, '4num2');
+$_4num3 = filter_input(INPUT_POST, '4num3');
+$_4num4 = filter_input(INPUT_POST, '4num4');
+$_4num5 = filter_input(INPUT_POST, '4num5');
+$_4num6 = filter_input(INPUT_POST, '4num6');
+$_4num7 = filter_input(INPUT_POST, '4num7');
+$_4num8 = filter_input(INPUT_POST, '4num8');
+$_4num9 = filter_input(INPUT_POST, '4num9');
+$_4num10 = filter_input(INPUT_POST, '4num10');
+$_4num11 = filter_input(INPUT_POST, '4num11');
+$_4num12 = filter_input(INPUT_POST, '4num12');
+$_4num13 = filter_input(INPUT_POST, '4num13');
+$_4num14 = filter_input(INPUT_POST, '4num14');
+
+$_5num1 = filter_input(INPUT_POST, '5num1');
+$_5num2 = filter_input(INPUT_POST, '5num2');
+$_5num3 = filter_input(INPUT_POST, '5num3');
+$_5num4 = filter_input(INPUT_POST, '5num4');
+$_5num5 = filter_input(INPUT_POST, '5num5');
+$_5num6 = filter_input(INPUT_POST, '5num6');
+$_5num7 = filter_input(INPUT_POST, '5num7');
+$_5num8 = filter_input(INPUT_POST, '5num8');
+$_5num9 = filter_input(INPUT_POST, '5num9');
+
+$_6num1 = filter_input(INPUT_POST, '6num1');
+$_6num2 = filter_input(INPUT_POST, '6num2');
+$_6num3 = filter_input(INPUT_POST, '6num3');
+$_6num4 = filter_input(INPUT_POST, '6num4');
+$_6num5 = filter_input(INPUT_POST, '6num5');
+$_6num6 = filter_input(INPUT_POST, '6num6');
+$_6num7 = filter_input(INPUT_POST, '6num7');
+
+$_7num1 = filter_input(INPUT_POST, '7num1');
+$_7num2 = filter_input(INPUT_POST, '7num2');
+$_7num3 = filter_input(INPUT_POST, '7num3');
+$_7num4 = filter_input(INPUT_POST, '7num4');
+$_7num5 = filter_input(INPUT_POST, '7num5');
+$_7num6 = filter_input(INPUT_POST, '7num6');
+$_7num7 = filter_input(INPUT_POST, '7num7');
+$_7num8 = filter_input(INPUT_POST, '7num8');
+$_7num9 = filter_input(INPUT_POST, '7num9');
+$_7num10 = filter_input(INPUT_POST, '7num10');
+$_7num11 = filter_input(INPUT_POST, '7num11');
+$_7num12 = filter_input(INPUT_POST, '7num12');
+$_7num13 = filter_input(INPUT_POST, '7num13');
+$_7num14 = filter_input(INPUT_POST, '7num14');
+$_7num15 = filter_input(INPUT_POST, '7num15');
+$_7num16 = filter_input(INPUT_POST, '7num16');
+$_7num17 = filter_input(INPUT_POST, '7num17');
+$_7num18 = filter_input(INPUT_POST, '7num18');
+
+$_8num1 = filter_input(INPUT_POST, '8num1');
+$_8num2 = filter_input(INPUT_POST, '8num2');
+$_8num3 = filter_input(INPUT_POST, '8num3');
+$_8num4 = filter_input(INPUT_POST, '8num4');
+
+$_9num1 = filter_input(INPUT_POST, '9num1');
+$_9num2 = filter_input(INPUT_POST, '9num2');
+$_9num3 = filter_input(INPUT_POST, '9num3');
+$_9num4 = filter_input(INPUT_POST, '9num4');
+$_9num5 = filter_input(INPUT_POST, '9num5');
+
+$_Anum1 = filter_input(INPUT_POST, 'Anum1');
+$_Anum2 = filter_input(INPUT_POST, 'Anum2');
+$_Anum3 = filter_input(INPUT_POST, 'Anum3');
+$_Anum4 = filter_input(INPUT_POST, 'Anum4');
+$_Anum5 = filter_input(INPUT_POST, 'Anum5');
+$_Anum6 = filter_input(INPUT_POST, 'Anum6');
+$_Anum7 = filter_input(INPUT_POST, 'Anum7');
+
+/* -!- */
+$m = array("???? ?????", "??????", "????/?????", "?????? ???","?????", "??? ?????", "?????? ????", "?????? ???? ????", "????????", '??? ???"?', '????? ??????', '????? ??????', '????? ??????', '?????', '????? ???', '???????', '???? ????', '???? ????', '?????? ????', "?????? ?'???", '???? ???', '???? ???', '???? ????', '???', '???', '????? ????? ??????', '????? ??????', '??????', '???? ???????', '???? ????', '?????? ??????', '???? ??????', '???', '??? ???', '????', '?????', '??? ???????', '??? ??????? ??????', '?????? ????', '?????', '???? ??? ???? ???', "???? ????/?'??? ????", '?????', '??????', '???? ?????', '????', '???? ????', "????'??", '?????? ?????', '?????? ?????', '???? ?????', '???? ?????', '???? ?????', '???? ????', '???? ????? ?????', '???? ?????', '???? ???', '????', '??? ????', '??? ???', '???????', '?????? ????????', '????', '??? ????', '???? ????', '???????', '???', '???', '?????? 1.5%', '????? ???????', '???"? 9% ??????', "'????", '??? ???? ??????? ?????', '?????', '??????', '??????', '???', '???', '???', '??? ????', '?????????', '??????', '??????', '???????', '????', '???', '?????', '????', '???"?', '??????', '?????', '??????', '??? ?????', '????', '???', '???????', '???? ???????', '???? ???????', '?????', '????', '???????', '?????? ?????????', '?????? ?????? ?????', '???? ????', '???? ?????????', '?????? ????', '????? ???', '????? ???????');
+$nums = array($_1num1, $_1num2, $_1num3, $_1num4, $_1num5, $_1num6, $_1num7, $_1num8, $_1num9, $_1num10, $_1num11, $_1num12, $_1num13, $_1num14, $_1num15, $_1num16, $_2num1, $_2num2, $_2num3, $_2num4, $_2num5, $_2num6, $_2num7, $_2num8, $_2num9, $_2num10, $_2num11, $_2num12, $_2num13, $_2num14, $_2num15, $_2num16, $_2num17, $_2num18, $_3num1, $_3num2, $_3num3, $_3num4, $_3num5, $_3num6, $_3num7, $_3num8, $_3num9, $_3num10, $_4num1, $_4num2, $_4num3, $_4num4, $_4num5, $_4num6, $_4num7, $_4num8, $_4num9, $_4num10, $_4num11, $_4num12, $_4num13, $_4num14, $_5num1, $_5num2, $_5num3, $_5num4, $_5num5, $_5num6, $_5num7, $_5num8, $_5num9, $_6num1, $_6num2, $_6num3, $_6num4, $_6num5, $_6num6, $_6num7, $_7num1, $_7num2, $_7num3, $_7num4, $_7num5, $_7num6, $_7num7, $_7num8, $_7num9, $_7num10, $_7num11, $_7num12, $_7num13, $_7num14, $_7num15, $_7num16, $_7num17, $_7num18, $_8num1, $_8num2, $_8num3, $_8num4, $_9num1, $_9num2, $_9num3, $_9num4, $_9num5, $_Anum1, $_Anum2, $_Anum3, $_Anum4, $_Anum5, $_Anum6, $_Anum7);
+/*$names = array("????? ????????", "????", "???????", "????? ????? ??????", "?????? ??????", "????? ???", "?????", "?????", "???????", "?? ????");*/
+/* -!- */
+echo "<div id='Pdiv'><center><div id=main><span id=Eprocess>Please wait: Saving data ... Updating ...</span></div></center><br /><div class='container'><div class='progress'><div class='progress-bar progress-bar-striped active' aria-valuenow='2' aria-valuemin='0' aria-valuemax='100' id='myBar' role='progressbar'  style='width:2%'>2%</div></div></div></div>";
+echo "<script>function move(){var elem = document.getElementById('myBar');var width = 1;var id = setInterval(frame, 40);function frame(){if(width >= 100){clearInterval(id);document.getElementById('Pdiv').style.display = 'none';document.getElementById('Mdiv').style.display = 'block';}else{width++;elem.innerHTML = width + '%';elem.style.width = width + '%';}}}move();</script>";
+
+/* -!- */
+$nnums = count($nums);
+$nm = count($m);
+
+/* -!- */
+echo "<div id='Mdiv' align='center' style='display:none'><table style='width:95%' width='95%' id=t1>";
+/*$y = 0;*/
+for ($x = 0; $x < $nnums; $x++) {
+	/*if($x == 59){
+		echo "</table><table id='t1'>";
+	}*/
+	/*if($x == 1||$x == 17||$x == 35||$x == 45||$x == 59||$x == 68||$x == 75||$x == 93||$x == 97||$x == 102){
+		echo "<th> ".$names[$y]."</th>";
+		$y++;
+	}else{
+	    
+	}*/
+    if($nums[$x]){
+		echo '<tr style="text-decoration:none;" id="d'.$x.'"><td> '.$m[$x].' </td><td>'.$nums[$x].'</td><td><button class="list w3-button w3-green w3-round-xlarge" id="b'.$x.'" onclick=line("'.$x.'")>&nbsp;&nbsp;&nbsp;</button></td></tr>';
+	}
+}
+echo "</table>";
+echo '<script type="text/javascript" language = "JavaScript" src="script.js"></script>';
+
+?>
+ <script type="text/javascript" src="script.js"></script>
+</body>
+<head>
+<meta charset='utf-8'>
+<title>Buy List - Making List</title>
+<link rel = 'shortcut icon' href = '/buylistIcon.png' type='image/x-icon'/>
+<link rel='stylesheet' type='text/css' href='/data/w3style.css' />
+<link rel='stylesheet' type='text/css' href='/data/min2.css' />
+<link rel='stylesheet' type='text/css' href='/style.css' />
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script type="text/javascript" language = "JavaScript" src="script.js"></script>
+</head>
+</html>

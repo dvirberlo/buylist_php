@@ -1,0 +1,244 @@
+/* this is the CSS page for the web https://buylist.000webhostapp.com */
+
+body{	
+	color:black;
+	background-color:white;
+	text-align:right;
+	border: 2px;
+	align:right;
+	
+}
+
+header{
+	padding: 5px 8px;
+	border: 2px;
+}
+
+footer{
+	padding: 5px 8px;
+	border: 2px;
+}
+
+/* -!- */
+
+div.formT1 input[type=submit] {
+    width: 95%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+div.formT1 input[type=submit]:hover {
+    background-color: #45a049;
+}
+div.formT1 p{
+	width:10%;
+}
+div.formT1 input[type=text], select {
+    width: 50%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	text-align:right;
+}
+div.formT1 input[type=number] {
+    width: 55px;
+    padding: 2px 2px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+	right:10px;
+}
+div.formT1 input[type=password], select {
+    width: 80%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+div.formT1 {
+	font-size:20px;
+    border-radius: 5px;
+    background-color: #f2f2f2!important;
+    padding: 20px;
+	color: black;
+	cursor:default;
+}
+div.formT1 fieldset{
+	border: 2px solid #000000;
+}
+div.formT1 legend{
+	cursor:default;
+}
+
+div.fileV{
+	width: 200px;
+	height: 400px;
+    padding: 5px 5px;
+	cursor:default;
+	font-size:12px;
+	color: black;
+	background-color: #f2f2f2;
+}
+div.FVs{
+	text-align:left!important;
+	padding: 10px 10px;
+	cursor:default;
+	font-size:12px;
+	color: black;
+	background-color: white;
+	font-weight:bold;
+}
+
+.b3-half{float:left;width:49.99999%}
+/* -!- */
+.w3-food-apple
+{color:#000;background-color:#76cd26}
+.w3-food-aspargus
+{color:#fff;background-color:#77ab56}
+.w3-food-apricot
+{color:#fff;background-color:#ffb16d}
+.w3-food-aubergine
+{color:#fff;background-color:#3d0734}
+.w3-food-avocado
+{color:#fff;background-color:#87a922}
+.w3-food-banana
+{color:#000;background-color:#fafe4b}
+.w3-food-butter
+{color:#000;background-color:#ffff81}
+.w3-food-blueberry
+{color:#fff;background-color:#464196}
+.w3-food-carrot
+{color:#fff;background-color:#e67e22}
+.w3-food-cherry
+{color:#fff;background-color:#cf0234}
+.w3-food-chocolate
+{color:#fff;background-color:#411900}
+.w3-food-cranberry
+{color:#fff;background-color:#9e003a}
+.w3-food-coffee
+{color:#fff;background-color:#a6814c}
+.w3-food-egg
+{color:#000;background-color:#fffcc4}
+.w3-food-grape
+{color:#fff;background-color:#6c3461}
+.w3-food-kiwi
+{color:#000;background-color:#8ee53f}
+.w3-food-lemon
+{color:#000;background-color:#fdff52}
+.w3-food-lime
+{color:#000;background-color:#bffe28}
+.w3-food-mango
+{color:#fff;background-color:#ffa62b}
+.w3-food-mushroom
+{color:#fff;background-color:#ba9e88}
+.w3-food-mustard
+{color:#fff;background-color:#ceb301}
+.w3-food-mint
+{color:#000;background-color:#c0fa8b}
+.w3-food-olive
+{color:#fff;background-color:#6e750e}
+.w3-food-orange
+{color:#fff;background-color:#f97306}
+.w3-food-pea
+{color:#fff;background-color:#a4bf20}
+.w3-food-peach
+{color:#fff;background-color:#ffb07c}
+.w3-food-pear
+{color:#000;background-color:#cbf85f}
+.w3-food-pistachio
+{color:#000;background-color:#c0fa8b}
+.w3-food-plum
+{color:#fff;background-color:#3f012c}
+.w3-food-pomegranate
+{color:#fff;background-color:#c0392b}
+.w3-food-pumpkin
+{color:#fff;background-color:#d35400}
+.w3-food-raspberry
+{color:#fff;background-color:#b00149}
+.w3-food-saffron
+{color:#fff;background-color:#feb209}
+.w3-food-salmon
+{color:#fff;background-color:#ff796c}
+.w3-food-spearmint
+{color:#000;background-color:#1ef876}
+.w3-food-squash
+{color:#fff;background-color:#f2ab15}
+.w3-food-strawberry
+{color:#fff;background-color:#fb2943}
+.w3-food-tomato
+{color:#fff;background-color:#ec2d01}
+.w3-food-wheat
+{color:#000;background-color:#fbdd7e}
+.w3-food-wine
+{color:#fff;background-color:#80013f}
+
+
+.w3-round-xlarge{border-radius:16px}
+.w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.w3-button{white-space:normal}
+.w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+.w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{background-color:#ccc;color:#000}
+.w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}
+@media (max-width:600px){.w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
+/*.loader3 {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid red;
+  border-right: 16px solid red;
+  border-bottom: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+.loader2 {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid red;
+  border-bottom: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {0% { -webkit-transform: rotate(0deg); }100% { -webkit-transform: rotate(360deg); }}@keyframes spin {0% { transform: rotate(0deg); 100%{transform: rotate(360deg);}
+}*/
+/* -!- */
+
+#t1{
+	background-color: #f2f2f2;
+	padding:7px;
+	color:black;
+	border: 1px solid black;
+	text-align:right;
+}
+#t1 th{
+	font-weight: bold;
+	text-align:right;
+}
+#t1 tr{
+	text-align:right;
+}
+#t1 td{
+	padding:7px;
+	text-align:right;
+}
+#t1 button{
+	padding:7px;
+	border-radius: 4px;
+}

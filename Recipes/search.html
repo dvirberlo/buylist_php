@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="he-IL" encoding="utf-8" >
+<head>
+<meta charset="utf-8">
+<title>Dvir Recipes - Home</title>
+
+<link rel = "shortcut icon" href = "img/Ricon.png" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+<link rel="stylesheet" type="text/css" href="styles/w3style.css" />
+<link rel="stylesheet" type="text/css" href="styles/min2.css" />
+<script type="text/javascript" language = "JavaScript" src="script.js"></script>
+
+<!-- Meta Information -->
+<meta name="keywords" content="Dvir Recipes" />
+<meta name="copyright" content="copyright © 2017 Dvir Berlowitz . all rights reserved. דביר ברלוביץ © כל הזכויות שמורות" />
+<meta name="author" content="Dvir Berlowitz, דביר ברלוביץ" />
+<meta name="language" content="Hebrew" />
+<meta name="Description" content="Recipes Database"/>
+</head>
+<body>
+<center>
+<header>
+<h1 class="w3"> Dvir's Recipes Database </h1>
+</header>
+<div width="90%" class="formT1">
+<form action=".php" method="get">
+<fieldset>
+<legend>Search Recipe:</legend>
+<input type="text" id="myInput2" onkeyup="filterHTML('#myUL', 'li', this.value)" placeholder="...חיפוש לפי שם" title="...חיפוש לפי שם">
+<ul id="myUL" class="w3-ul">
+	<li >דביר ברלוביץ</li>
+	<li >מתכון לפיצה</li>
+	<li >מפינס  טונה</li>
+	<li >עוגת שוקולד</li>
+	<li >פיצה מרגריטה</li>
+</ul>
+<input type="submit" name="submit">
+</fieldset>
+</form>
+</div>
+<footer>
+<p>copyright © 2017 Dvir Berlowitz.<br class="w3-hide-large w3-hide-medium">© כל הזכויות שמורות לדביר ברלוביץ 2017</p>
+</footer>
+</center>
+</body>
+</html>
